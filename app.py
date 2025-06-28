@@ -10,7 +10,7 @@ from io import BytesIO
 st.set_page_config(page_title="🌱 Smart NPK Predictor", layout="wide")
 
 # ✅ Load model & scaler
-model = load_model('your_lstm_model.h5', compile=False)
+model = load_model("your_lstm_model.keras", compile=False)
 scaler_X = joblib.load('scaler_X.pkl')
 scaler_y = joblib.load('scaler_y.pkl')
 
