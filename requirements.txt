@@ -1,7 +1,8 @@
 streamlit==1.26.0
-pandas
 numpy
+pandas
 scikit-learn
 joblib
 matplotlib
-tensorflow==2.13.0
+Pillow
+tensorflow-cpu==2.15.0
