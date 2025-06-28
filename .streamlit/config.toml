@@ -1,4 +1,6 @@
 [server]
+[global]
+pythonVersion = "3.10"
 headless = true
 port = 8501
 enableCORS = false
